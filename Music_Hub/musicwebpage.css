@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.homepage-background-container {
+    background-image: url("https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-page-container {
+    margin-top: 220px;
+}
+
+.copyright-container {
+    background-color: #000000;
+    background-size: cover;
+}
+
+.welcome-card {
+    text-align: center;
+}
+
+.welcome-heading {
+    font-family: "Cambria";
+    font-size: 20px;
+    color: #c7c7c7;
+}
+
+.music-hub-heading {
+    font-family: "Bree Serif";
+    font-size: 55px;
+    color: #ffffff;
+}
+
+.option-home {
+    height: 35px;
+    width: 128px;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 5px;
+    font-family: "arial";
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.copyright {
+    font-family: "Calibri";
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#detailymusic {
+    background-image: url("https://res.cloudinary.com/def6duhaa/image/upload/v1708619560/bg10_o0dyjv.jpg");
+    height: 105vh;
+    background-size: cover;
+}
+
+#detailedmusic {
+    padding: 20px;
+}
+
+.logo {
+    height: 15px;
+    width: 15px;
+}
+
+.logo-heading {
+    font-size: 8px;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logo-handling {
+    padding: 8px;
+}
+
+#second-page-heading {
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 20px;
+}
+
+.artist-selector {
+    padding: 20px;
+}
+
+#music-rahman-picture {
+    height: 120px;
+    width: 115px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#music-anirudh-picture {
+    height: 120px;
+    width: 120px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#music-sidsriram-picture {
+    height: 120px;
+    width: 115px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#music-vshivan-picture {
+    height: 120px;
+    width: 120px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#music-shakthisree-picture {
+    height: 120px;
+    width: 115px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#music-arjith-picture {
+    height: 120px;
+    width: 115px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#artistname {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.bg-mainly-container {
+    background-color: #1c1c1c;
+}
+
+.bg-main-container {
+    background-size: cover;
+    padding: 15px;
+}
+
+
+.music-artist-card {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+.music-artist-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.music-artist-picture2 {
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.music-artist-name {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.music-artist-name2 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.music-artist-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.bg-main-container {
+    background-color: #1c1c1c;
+    background-size: cover;
+    padding: 15px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 19px;
+}
+
+.music-artist-card {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+.music-artist-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.music-artist-picture2 {
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.music-artist-name {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.music-artist-name2 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.music-artist-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.bg-music-detail-container {
+    background-size: cover;
+    padding: 15px;
+}
+
+.bg-musicly-detail-container2 {
+    background-color: #1c1c1c;
+}
+
+.bg-music-detail-container2 {
+    background-size: cover;
+    padding: 15px
+}
+
+.music-detail-heading {
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 16px;
+}
+
+.music-detail-card {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+.music-detail-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.music-detail-picture2 {
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.music-detail-name {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.music-detail-name2 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.music-detail-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+
+.song-description {
+    font-family: "Arial";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.song-detail-card {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.song-detail-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.option {
+    height: 30px;
+    width: 72px;
+    font-size: 15px;
+    font-family: "Arial";
+    margin-top: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border-width: 0px;
+    border-radius: 14px;
+    font-weight: 500;
+}

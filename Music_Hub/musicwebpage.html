@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="musicwebpage.css">
+</head>
+
+<body>
+    <div id="sectionHomePage">
+        <div class="homepage-background-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="home-page-container d-flex flex-column justify-content-center">
+                <div>
+                    <div class="welcome-card">
+                        <h1 class="welcome-heading"></h1>
+                        <h1 class="music-hub-heading mb-3">MUSIC HUB</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <button class="option-home mt-4" onclick="display('sectionDetailMusic')">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionDetailMusic">
+        <div id="detailymusic">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div id="detailedmusic">
+                <h1 id="second-page-heading">Select your Music Artist</h1>
+                <div class="artist-selector text-center">
+                    <div class="d-flex flex-row">
+                        <div>
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1707923071/arrahmansir2_wqvrlk.jpg" id="music-rahman-picture" onclick="display('sectionARRPage')" />
+                            <h1 id="artistname" class="mt-2">A.R.Rahman</h1>
+                        </div>
+                        <div class="ml-5">
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708061952/anirudh5_dufcy2.jpg" id="music-anirudh-picture" onclick="display('sectionAnirudhPage')" />
+                            <h1 id="artistname" class="mt-2">Anirudh</h1>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mt-3">
+                        <div>
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708061560/sidsriram_usrhde.jpg" id="music-sidsriram-picture" onclick="display('sectionSidSriramPage')" />
+                            <h1 id="artistname" class="mt-2">Sid Sriram</h1>
+                        </div>
+                        <div class="ml-5">
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708611181/jayaraj4_plmd9k.jpg" id="music-vshivan-picture" onclick="display('sectionHarrishPage')" />
+                            <h1 id="artistname" class="mt-2">Harrish Jayaraj</h1>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mt-3">
+                        <div>
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708063443/shakthisreegopalan_yxcv9q.jpg" id="music-shakthisree-picture" onclick="display('sectionShakthisreeGopalanPage')" />
+                            <h1 id="artistname" class="mt-2">Shakthisree Gopalan</h1>
+                        </div>
+                        <div class="ml-5">
+                            <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708064202/arjithsingh_ykbr8b.jpg" id="music-arjith-picture" onclick="display('sectionArijitSinghPage')" />
+                            <h1 id="artistname" class="mt-2">Arijith Singh</h1>
+                        </div>
+                    </div>
+                </div>
+                <button class="option mt-3" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSidSriramPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionJoe')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708068519/joe2_r6zh5i.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Joe</h1>
+                            <p class="music-artist-description">
+                                " Urugi urugi ponadhaai En ullam yaan neeye Kurugi kurugi ponadhadi... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionOMK')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708070881/ohmykadavuleyy5_v8qoz4.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Oh My Kadavule</h1>
+                            <p class="music-artist-description">
+                                " Netru nan unnai partha parvai veru Neengadha ennam aga... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionSalmon')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708071823/salmon_d1ifno.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Salmon</h1>
+                            <p class="music-artist-description">
+                                " Oho kadhal en kaviye nee en arugil Vanthale Ulagam yen iruluthu... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionTakkar')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708072630/takkar_zbqhs5.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Takkar</h1>
+                            <p class="music-artist-description">
+                                " Niraa niraa nee en niraa thiraa thiraa Ninaithiraa nodi sugam tharaa... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionMEME')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708530427/mudhalnee_yhrj9z.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Mudhal Nee Mudivum Nee</h1>
+                            <p class="music-artist-description">
+                                " Mudhal nee mudivum nee moondru kaalam nee kadal nee karaiyum nee... "
+                            </p>
+                        </div>
+                    </div>
+                    <button class=" option" onclick="display('sectionDetailMusic')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAnirudhPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionLeo')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708185044/leo_xxzsou.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Leo</h1>
+                            <p class="music-artist-description">
+                                " Badass ma orasama odidu badass ma un Vaala surutidu badass ma... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionJailer')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708185706/jailer2_mbvnmr.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Jailer</h1>
+                            <p class="music-artist-description">
+                                " Rathamarey rathamarey rathamareey mothamarey rathamareey... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionJawan')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708186179/jawan_saf5q8.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Jawan</h1>
+                            <p class="music-artist-description">
+                                " Kaathellam kaadhal aagum kaalamae ninnu oodum pakkama neeyum... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionThiru')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708235289/thiruchitrampalam_jobxc7.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Thiruchitrambalam</h1>
+                            <p class="music-artist-description">
+                                " Megham karukkatha pennae pennae Saaral adikkaadha pennae... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionRRR')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708532235/rrr_dupdgh.jpg" class="music-artist-picture2" style="width: 135px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">RRR</h1>
+                            <p class="music-artist-description">
+                                " Puliyum avv veadanum puyalum oru oongalum punalum madai vaaiyilum... "
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="option" onclick="display('sectionDetailMusic')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionARRPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionMersal')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708237907/mersal_x2fymc.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Mersal</h1>
+                            <p class="music-artist-description">
+                                " Neethanae neeethanaaae en nenjai Thatum satham azhagai udaidhen... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionAmbikapathy')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708243724/ambikapathy_cpljq4.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Ambikapathy</h1>
+                            <p class="music-artist-description">
+                                " Gangaiyilae oru vanna paravai muzhgiyathae neerodu Andha paravai... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionSarkar')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708353759/sarkar2_fxgsfn.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Sarkar</h1>
+                            <p class="music-artist-description">
+                                " I wanna rock like ah star like ah fire like ah Gimme some love like ah... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionCCV')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708241593/sekasivanda_zcpiiy.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Chekka Chivantha Vaanam</h1>
+                            <p class="music-artist-description">
+                                " Chittu kuruvi ondru sneha paarvai kondu Vatta paaraiyin mel ennai va... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionPT')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708241572/patuthala_s2ihq1.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Patu Thala</h1>
+                            <p class="music-artist-description">
+                                " Suttri nindru oorae paarkka kalam Kaanban punnagaiyil seanai... "
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="option" onclick="display('sectionDetailMusic')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHarrishPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionAnegan')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708324690/anegan_zkiky3.jpg" class="music-artist-picture2" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Anegan</h1>
+                            <p class="music-artist-description">
+                                " Aathadi athadi semmbaruthi pookari Asapattu poothirukka vaa... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionSpyder')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708612159/spyder2_qzcns1.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Spyder</h1>
+                            <p class="music-artist-description">
+                                " Ciciliya ciciliya silu silu kaathila paranthida Vaa vaa ciciliya ciciliya chikki... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionYA')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708324762/yennaiarinthal_hsnahp.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Yennai Arindhaal</h1>
+                            <p class="music-artist-description">
+                                " Unakenna venum sollu ulagathai kaatha Sollu pudhu idam pudu megam... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionVA')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708324745/vanaramayram_itlwcx.jpg" class="music-artist-picture2" style="width: 60px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Vaaranam Aayiram</h1>
+                            <p class="music-artist-description">
+                                " Nenjukul peidhidum maamazhai neerukul Moozhgidum thamarai sattendru... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('section7AA')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708325201/7thsense2_jrmybb.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">7 Aum Arivu</h1>
+                            <p class="music-artist-description">
+                                " Mun Andhi chaaral nee mun jenma thedal Nee naan thoongum nerathil... "
+                            </p>
+                        </div>
+                    </div>
+                    <button class="option" onclick="display('sectionDetailMusic')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionShakthisreeGopalanPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionMamannan')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708353610/mamannan2_qydpnk.jpg" class="music-artist-picture" style="width: 120px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Mamannan</h1>
+                            <p class="music-artist-description">
+                                " Nenjame nenjame konjiye solludhae aaa re Roo thanjame thanjame sondhamai... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionPS2')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708242440/ps3_eg3nds.jpg" class="music-artist-picture2" style="width: 62px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Ponnin Selvan 2</h1>
+                            <p class="music-artist-description">
+                                " Aganaga aganaga muganagaiyae Muganaga muganaga murunagaiyae... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionVikramVedha')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708353445/vikramvedha_cs0twv.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Vikram Vedha</h1>
+                            <p class="music-artist-description">
+                                " Yannji yaanji en nenjil vandhu vandhu Nikkura yaen yaen enna saanji... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionKanchana2')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708353383/kanchana_2_vhfn7l.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Kanchana 2</h1>
+                            <p class="music-artist-description">
+                                " Raappagalaa azhudhaachu kannu rendhum Vaadipochi naappadhu naal... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionKadal')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708353361/kadal_awnjip.jpg" class="music-artist-picture" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Kadal</h1>
+                            <p class="music-artist-description">
+                                " Nenjukkulla umma mudinjirukken inga Yethisaiyil yempozhappu... "
+                            </p>
+                        </div>
+                    </div>
+                    <button class="option" onclick="display('sectionDetailMusic')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionArijitSinghPage">
+        <div class="bg-mainly-container">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-main-container">
+                <h1 class="heading">Choose Your Choice</h1>
+                <div class="selection-music-artist-container">
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionBrahma')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708418933/Brahmastra_aykueg.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">Brahmastra</h1>
+                            <p class="music-artist-description">
+                                " Mujhko itna bataye koyi kaise tujhse dil na Lagaye koyi rabba ne tujhko... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('section83')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708418873/83_o1pxvc.jpg" class="music-artist-picture" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1" style="font-size: 20px;">83</h1>
+                            <p class="music-artist-description">
+                                " Lehra do lehra do gardish mein phir apni Sarzameen ka parcham lehra do... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionMSD')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708418954/msd_q5b7ro.jpg" class="music-artist-picture2" style="width: 60px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name mt-1">MS Dhoni</h1>
+                            <p class="music-artist-description">
+                                " Tujh mein khoya rahoon main mujh mein khoyi rahe tu Khud ko dhoondh... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionBrahma2')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708418933/Brahmastra_aykueg.jpg" class="music-artist-picture2" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Brahmastra</h1>
+                            <p class="music-artist-description">
+                                " Om deva deva om deva deva namah Namho namah om deva deva... "
+                            </p>
+                        </div>
+                    </div>
+                    <div class="music-artist-card mt-4 d-flex flex-row" onclick="display('sectionTumHiHo')">
+                        <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708418980/tum_hi_ho_ejgyqj.jpg" class="music-artist-picture" style="width: 65px;" />
+                        <div class="p-1 mt-1 ml-1">
+                            <h1 class="music-artist-name2 mt-1">Ashiqui 2</h1>
+                            <p class="music-artist-description">
+                                " Kyonki tum hi ho ab tum hi ho zindagi ab tum hi ho chain bhi meraa dard bhi... "
+                            </p>
+                        </div>
+                    </div>
+                    <button class="option" onclick="display('sectionDetailMusic')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionJoe">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EvMS73TWIQA?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Joe - Urugi Urugi Tamil Video |
+                        Rio Raj, Malavika Manoj | Anand Aravindakshan | Hariharan Ram S</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Anand Aravindakshan Watch here.</p>
+                        <p>Movie - Joe<br />
+                            Song name - Urugi Urugi<br />
+                            Starring - Rio Raj, Malavika Manoj<br />
+                            Singers - Anand Aravindakshan<br />
+                            Lyrics - Vignesh Ramakrishna<br />
+                            Director - Hariharan Ram S<br />
+                            Producer - Dr. D. Arulanandhu Mathewo</p>
+                    </div>
+                    <button class="option" onclick="display('sectionSidSriramPage')">Back</button>
+                </div>
+
+
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionOMK">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DScFlfN9vDk?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Oh My Kadavule - Kadhaippoma Tamil Video |
+                        Ashok Selvan, Ritika Singh | Sid Sriram | Ashwath Marimuthu</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Sid Sriram Watch here.</p>
+                        <p>Movie - Oh My Kadavule<br />
+                            Song name - Kadhaippoma<br />
+                            Starring - Ashok Selvan, Rithika Singh<br />
+                            Singers - Sid Sriram<br />
+                            Lyrics - Ko Sesha<br />
+                            Director - Ashwath Marimuthu<br />
+                            Producer - Axess Film Factory</p>
+                    </div>
+                    <button class="option" onclick="display('sectionSidSriramPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSalmon">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JXT2YfC298k?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Salmon - Kaadhal En Kaviye Tamil Lyric |
+                        Vijay Yesudas, Jonita Doda | Sid Sriram | Sreejith Edavana</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Sid Sriram Watch here.</p>
+                        <p>Movie - Salmon<br />
+                            Song name - Kaadhal En Kaviye<br />
+                            Starring - Vijay Yesudas, Jonita Doda<br />
+                            Singers - Sid Sriram<br />
+                            Lyrics - Navin Kannan<br />
+                            Director - Sreejith Edavana<br />
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionSidSriramPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTakkar">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vwa6Py0D-RI?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Takkar - Nira Tamil Video |
+                        Siddharth | Sid Sriram | Karthik G Krish</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Sid Sriram Watch here.</p>
+                        <p>Movie - Takkar<br />
+                            Song name - Nira<br />
+                            Starring - Siddharth<br />
+                            Singers - Sid Sriram, GVM, Malvi Sundaresan<br />
+                            Lyrics - Ku Karthik<br />
+                            Director - Karthik G Krish<br />
+                            Producer - Sudhan Sundaram & G. Jayaram
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionSidSriramPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMEME">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ATElufr0OiE?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Mudhal Nee Mudivum Nee - Title Track Tamil Video |
+                        Kishen Das, Meetha Raghunath | Sid Sriram | Darbuka Siva </p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Sid Sriram Watch here.</p>
+                        <p>Movie - Mudhal Nee Mudivum Nee<br />
+                            Song name - Title Track <br />
+                            Starring - Kishen Das, Meetha Raghunath<br />
+                            Singer - Sid Sriram<br />
+                            Lyrics - Thamarai<br />
+                            Director - Dharubika Siva<br />
+                            Producer - Super Talkies - Sameer Bharat
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionSidSriramPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionLeo">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IqwIOlhfCak?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Leo - Badass Tamil Lyrics |
+                        Thalapathy Vijay | Anirudh Ravichandran | Lokesh Kanagaraj</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring Energteic lines rendered by Anirudh Ravichandran Watch here.</p>
+                        <p>Movie - Leo<br />
+                            Song name - Badass<br />
+                            Starring - Thalapathy Vijay<br />
+                            Singer - Anirudh Ravichandran<br />
+                            Lyrics - Vishnu Edavan<br />
+                            Director - Lokesh Kanagaraj<br />
+                            Producer - Lalit Kumar</p>
+                    </div>
+                    <button class="option" onclick="display('sectionAnirudhPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionJailer">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nDJ8KgjlzYM?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Jailer - Rathamaarey Tamil Video |
+                        Superstar Rajinikanth | Anirudh Ravichandran | Nelson</p>
+                    <div class="song-detail-ca3rd song-detail-description mt-5">
+                        <p>A soul stirring Father & son bond lines rendered by Anirudh Ravichandran Watch here.</p>
+                        <p>Movie - Jailer<br />
+                            Song name - Rathamaarey<br />
+                            Starring - Superstar Rajinikanth<br />
+                            Singer - Anirudh Ravichandran<br />
+                            Lyrics - Vignesh Shivan<br />
+                            Director - Nelson<br />
+                            Producer - Sun Pictures</p>
+                    </div>
+                    <button class="option" onclick="display('sectionAnirudhPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionJawan">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8eYG5QGZAZs?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Jawan - Hayyoda Tamil Video |
+                        Shahrukh Khan, Nayanthara | Anirudh Ravichandran | Atlee</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Anirudh Ravichandran Watch here.</p>
+                        <p>Movie - Jawan<br />
+                            Song name - Hayyoda<br />
+                            Starring - Shahrukh Khan, Nayanthara<br />
+                            Composed - Anirudh Ravichandran<br />
+                            Lyrics - Vivek<br />
+                            Director - Atlee<br />
+                            Producer - Gauri Khan</p>
+                    </div>
+                    <button class="option" onclick="display('sectionAnirudhPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionThiru">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cEWwJxEq9Lg?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Megham Karukatha - Thiruchitrambalam Tamil Video |
+                        Dhanush | Anirudh Ravichandran | Mithran R Jawahar</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring love lines rendered by Anirudh Ravichandran Watch here.</p>
+                        <p>Movie - Thiruchitrambalam<br />
+                            Song name - Megham Karukada<br />
+                            Starring - Dhanush<br />
+                            Composed - Anirudh Ravichandran<br />
+                            Lyrics - Poetu Dhanush<br />
+                            Director - Mithran R Jawahar<br />
+                            Producer - Sun Pictures</p>
+                    </div>
+                    <button class="option" onclick="display('sectionAnirudhPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionRRR">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-dLe9C7z9dI?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Natpu - RRR Tamil Video |
+                        NTR, Ram Charan | Anirudh Ravichandran | SS Rajamouli</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring friendship bonding lines rendered by Anirudh Ravichandran Watch here.</p>
+                        <p>Movie - RRR<br />
+                            Song name - Natpu<br />
+                            Starring - NTR, Ram Charan<br />
+                            Singer - Anirudh Ravichandran<br />
+                            Lyrics - Madhan Karky<br />
+                            Director - SS Rajmouli<br />
+                            Producer - DVV Danayya</p>
+                    </div>
+                    <button class="option" onclick="display('sectionAnirudhPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMersal">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fWajtP80g54?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Mersal - Neethanae Tamil Video |
+                        Vijay, Samantha | AR Rahman | Atlee</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody rendered by A.R.Rahman and Shreya Ghosal, Watch here.</p>
+                        <p>Movie - Mersal<br />
+                            Song name - Neethane<br />
+                            Starring - Vijay, Samantha<br />
+                            Singers - AR Rahman, Shreya Ghosal<br />
+                            Lyrics - Vivek<br />
+                            Director - Atlee<br />
+                            Producer - Sri Thendral Films</p>
+                    </div>
+                    <button class="option" onclick="display('sectionARRPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAmbikapathy">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t4vXTMgnD1I?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Ambikapathy - Ambikapathy Tamil Lyrics |
+                        Dhanush | AR Rahman | Anand L Rai</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring lines rendered by A.R.Rahman Watch here.</p>
+                        <p>Movie - Ambikapathy<br />
+                            Song name - Ambikapathy<br />
+                            Starring - Dhanush<br />
+                            Singers - Naresh Iyer<br />
+                            Lyrics - Vairamuthu<br />
+                            Director - Anand L Rai<br />
+                            Producer - Krishika Lulla</p>
+                    </div>
+                    <button class="option" onclick="display('sectionARRPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPS2">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lccoC-rNw-w?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Ponnin Selvan 2 - Aga Naga Tamil Video |
+                        Karthick, Trisha | Shakthisree Gopalan | Mani Ratnam</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody rendered by Shakthisree Gopalan Watch here.</p>
+                        <p>Movie - Ponnin Selvan 2<br />
+                            Song name - Aga Naga<br />
+                            Starring - Karthick, Trisha<br />
+                            Singers - Shakthisree Gopalan<br />
+                            Lyrics - Illango Krishnan<br />
+                            Director - Mani Ratnam<br />
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionShakthisreeGopalanPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionCCV">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bt4-FwVe1Fk?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Chekka Chivantha Vaanam - Mazhai Kuruvi Tamil Lyrics |
+                        AR Rahman | Vairamuthu | Mani Ratnam</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody rendered by A.R.Rahman Watch here.</p>
+                        <p>Movie - Chekka Chivantha Vaanam<br />
+                            Song name - Mazhai Kuruvi<br />
+                            Singers - AR Rahman<br />
+                            Lyrics - Vairamuthu<br />
+                            Director - Mani Ratnam<br />
+                            Producer - Mani Ratnam & Subaskaran</p>
+                    </div>
+                    <button class="option" onclick="display('sectionARRPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPT">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kw6SFbbinnY?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Patu Thala - Nee Singam Dhan Tamil Video |
+                        Silambarsan TR | AR Rahman | Obeli N. Krishna</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring song rendered by A.R.Rahman Watch here.</p>
+                        <p>Movie - Patu Thala<br />
+                            Song name - Nee Singam Dhan<br />
+                            Starring - Silambarasan TR<br />
+                            Singer - Sid Sriram<br />
+                            Lyrics - Vivek<br />
+                            Director - Obeli N. Krishna<br />
+                            Producer - Jayantilal Gada & KE Gnanavelraja</p>
+                    </div>
+                    <button class="option" onclick="display('sectionARRPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAnegan">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MGjBQDrtGbA?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Anegan - Aathadi Aathadi Tamil Video |
+                        Dhanush, Amyra Dastur | Harrish Jayaraj | Anand KV</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody love lines rendered by Harrish Jayaraj Watch here.</p>
+                        <p>Movie - Anegan<br />
+                            Song name - Aathadi Aathadi<br />
+                            Starring - Dhanush, Amyra Dastur<br />
+                            composed - Harrish Jayaraj<br />
+                            Lyrics - Vairamuthu<br />
+                            Director - Anand KV<br />
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionHarrishPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="section7AA">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7fFFbFp8nOg?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">7 Aum Arivu - Mun Andhi Tamil Video |
+                        Suriya, Shruti Hassan | Harrish Jayaraj | Murugadoss AR</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring lines rendered by A.R.Rahman Watch here.</p>
+                        <p>Movie - 7 Aum Arivu<br />
+                            Song name - Mun Andhi<br />
+                            Starring - Suriya, Shruti Hassan<br />
+                            Singers - Karthik & Megha<br />
+                            Lyrics - Na. Muthu Kumar<br />
+                            Director - Murugadoss AR<br />
+                            Producer - Udhaiyanidhi Stalin</p>
+                    </div>
+                    <button class="option" onclick="display('sectionHarrishPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionYA">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SdcAN3dobz4?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Yennai Arindhaal - Unnakena Venum Sollu Tamil Video |
+                        Ajith Kumar | Harrish Jayaraj | Gautham Vasudev Menon</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody Father & Daughter bonding lines rendered by Harrish Jayaraj Watch here.</p>
+                        <p>Movie - Yennai Arindhaal<br />
+                            Song name - Unakkenna Venum Sollu<br />
+                            Starring - Ajith Kumar<br />
+                            Singers - Benny Dayal & Mahathi<br />
+                            Lyrics - Thamarai<br />
+                            Director - Gautham Vasudev Menon<br />
+                            Producer - Rathnam AM
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionHarrishPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionVA">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FzLpP8VBC6E?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Vaaranam Aayiram - Nenjukkul Peidhidum Tamil Video |
+                        Suriya | Harrish Jayaraj | Gautham Vasudev Menon</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody love line rendered by Harrish Jayaraj Watch here.</p>
+                        <p>Movie - Vaanaram Aayiram<br />
+                            Song name - Nenjukkul Peidhidum<br />
+                            Singers - Hariharan, Devan Ekambaram &<br /> VV Prassanna
+                            Lyrics - Thamarai<br />
+                            Director - Gautham Vasudev Menon<br />
+                            Producer - Ravichandran V</p>
+                    </div>
+                    <button class="option" onclick="display('sectionHarrishPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSpyder">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rXbyade1vdg?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Spyder - Ciciliya Ciciliya Tamil Lyric |
+                        Mahesh Babu, Rakul Preeth Singh | Harrish Jayaraj | Murugadoss AR</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring song rendered by Harrish Jayaraj Watch here.</p>
+                        <p>Movie - Spyder<br />
+                            Song name - Ciciliya Ciciliya<br />
+                            Starring - Mahesh Babu, Rakul Preeth singh<br />
+                            Singers - Hari Charan & Sakthi Shree<br />
+                            Lyrics - Karky<br />
+                            Director - Murugadoss AR<br />
+                            Producer - NV Prasad</p>
+                    </div>
+                    <button class="option" onclick="display('sectionHarrishPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMamannan">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3uFDgERY37U?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Mamannan - Nenjame Nenjame Tamil Video |
+                        Udhayanidhi Stalin, Keerthi Suresh | Shakthisree Gopalan | Mari Selvaraj</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody love lines rendered by Shakthisree Gopalan Watch here.</p>
+                        <p>Movie - Mamannan<br />
+                            Song name - Nenjame Nenjame<br />
+                            Starring - Udhayanidhi Stalin, Keerthi Suredh<br />
+                            Singer - Shakthisree Gopalan, Vijay Yesudas<br />
+                            Lyrics - Yugabharathi<br />
+                            Director - Mari Selvaraj<br />
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionShakthisreeGopalanPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSarkar">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u8BxVzRG9bE?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Sarkar - CEO In The House Tamil Video |
+                        Thalapathy Vijay | AR Rahman | Murugadoss AR</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A energytic stirring lines rendered by A.R.Rahman Watch here.</p>
+                        <p>Movie - Sarkar<br />
+                            Song name - CEO In The House<br />
+                            Starring - Thalapathy Vijay<br />
+                            Singers - Nakul Abhyankar & Blaaze<br />
+                            Lyrics - Vivek<br />
+                            Director - Murugadoss AR<br />
+                            Producer - Sun TV Network</p>
+                    </div>
+                    <button class="option" onclick="display('sectionARRPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionVikramVedha">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y3-PeuQ7nvY?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Vikram Vedha - Yaanji Tamil Video |
+                        R Madhavan | Shakthisree Gopalan | Pushkar & Gayatri</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring song lines rendered by Anirudh Watch here.</p>
+                        <p>Movie - Vikram Vedha<br />
+                            Song name - Yaanji<br />
+                            Starring - R Madhavan<br />
+                            Singers - Anirudh, Shakthisree Gopalan<br />
+                            Lyrics - Mohanraj<br />
+                            Director - Pushkar & Gayatri<br />
+                            Producer - S Sashikanth
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionShakthisreeGopalanPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionKanchana2">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uwk-fMOVKRM?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Kanchana 2 - Vaaya En Veera Tamil Video |
+                        Raghava Lawrence, Taapsee | Shakthisree Gopalan | Raghava Lawrence</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody love line rendered by Shakthisree Gopalan Watch here.</p>
+                        <p>Movie - Kanchana 2<br />
+                            Song name - Vaaya En Veera<br />
+                            Singer - Shakthisree Gopalan<br />
+                            Lyrics - Ko Sesha<br />
+                            Director - Raghava Lawrence<br />
+                            Producer - Bellamkonda Suresh</p>
+                    </div>
+                    <button class="option" onclick="display('sectionShakthisreeGopalanPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionKadal">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container2">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XYZwp-WAg6I?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Kadal - Nenjukkule Tamil Video |
+                        Gautham Karthick | Shakthisree Gopalan | Maniratnam</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring song rendered by Shakthisree Gopalan Watch here.</p>
+                        <p>Movie - Kadal<br />
+                            Song name - Nenjukkule<br />
+                            Starring - Gautham Karthick<br />
+                            Singers - Shakthisree Gopalan<br />
+                            Lyrics - Vairamuthu<br />
+                            Director - ManiRatnam<br />
+                            Producer - Maniratnam</p>
+                    </div>
+                    <button class="option" onclick="display('sectionShakthisreeGopalanPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionBrahma">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BddP6PYo2gs?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Brahmastra - Kesariya Hindi Video |
+                        Ranbir Kapoor, Alia Bhatt | Arijit Singh | Ayan Mukerji</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody love lines rendered by Arijit Singh Watch here.</p>
+                        <p>Movie - Brahmastra<br />
+                            Song name - Kesariya<br />
+                            Starring - Ranbir Kapoor, Alia Bhatt<br />
+                            Singer - Arijit Singh<br />
+                            Lyrics - Amitabh Bhattacharya<br />
+                            Director - Ayan Mukerji<br />
+                            Producer - Fox Star Studios, Dharma<br />
+                            Productions, Prime Focus and Starlight
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionArijitSinghPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="section83">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nDsIy6kRhms?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">83 - Lehra Do Hindi Video |
+                        Ranveer Singh | Arijit Singh | Kabir Khan</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A energytic stirring lines rendered by Arijit Singh Watch here.</p>
+                        <p>Movie - 83<br />
+                            Song name - Lehra Do<br />
+                            Starring - Ranveer Singh<br />
+                            Singer - Arijit Singh<br />
+                            Lyrics - Kausar Munir<br />
+                            Director - Kabir Khan<br />
+                    </div>
+                    <button class="option" onclick="display('sectionArijitSinghPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMSD">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qVHaXD7zHDQ?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">MS Dhoni -THE UNTOLD STORY | Phir Kabhi Hindi Video |
+                        Sushant Singh | Arijit Singh | Neeraj Pandey</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring song lines rendered by Arijit Singh Watch here.</p>
+                        <p>Movie - MS Dhoni THE UNTOLD STORY<br />
+                            Song name - Phir Kabhi<br />
+                            Starring - Sushant Singh<br />
+                            Singer - Arijit Singh<br />
+                            Lyrics - Manoj Muntashir<br />
+                            Director - Neeraj Pandey<br />
+                            Producer - Sourav Roy & Amaal Mallik
+                        </p>
+                    </div>
+                    <button class="option" onclick="display('sectionArijitSinghPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionBrahma2">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mNuhKUOD_A0?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Brahmastra - Deva Deva Hindi Video |
+                        Amitabh B, Ranbir | Arjit Singh | Ayan Mukerji</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A soul stirring melody lines rendered by Arijit Singh Watch here.</p>
+                        <p>Movie - Brahmastra<br />
+                            Song name - Deva Deva<br />
+                            Singer - Arijit Singh, Jonita Gandhi<br />
+                            Lyrics - Amitabh Bhattacharya<br />
+                            Director - Ayan Mukerji<br />
+                            Producer - Fox Star Studios, Dharma<br />
+                            Productions, Prime Focus and Starlight</p>
+                    </div>
+                    <button class="option" onclick="display('sectionArijitSinghPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTumHiHo">
+        <div class="bg-musicly-detail-container2">
+            <div class="d-flex flex-row justify-content-start logo-handling">
+                <img src="https://res.cloudinary.com/def6duhaa/image/upload/v1708672564/mhlogo2_dxkesz.jpg" class="logo" />
+                <p class="logo-heading">Musichub</p>
+            </div>
+            <div class="bg-music-detail-container">
+                <h1 class="music-detail-heading"></h1>
+                <div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IJq0yyWug1k?rel=0" allowfullscreen></iframe>
+                    </div>
+                    <p class="song-description mt-3">Aashiqui 2 - Tum Hi Ho Hindi Video |
+                        Aditya Roy Kapur, Shraddha Kapoor | Arijit Singh | Mohit Suri</p>
+                    <div class="song-detail-card song-detail-description mt-5">
+                        <p>A love stirring song rendered by Arjit Singh Watch here.</p>
+                        <p>Movie - Aashiqui 2<br />
+                            Song name - Tum Hi Ho<br />
+                            Starring - Aditya Roy Kapur, Shraddha Kapoor<br />
+                            Singer - Arijit Singh<br />
+                            Director - Mohit Suri<br />
+                            Producer - Mukesh Bhatt</p>
+                    </div>
+                    <button class="option" onclick="display('sectionArijitSinghPage')">Back</button>
+                </div>
+                <p class="copyright mt-5">Copyright @ 2024. All Rights Reserved By KS</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
