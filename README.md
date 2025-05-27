@@ -6,11 +6,11 @@ singers and directors.
 
 The web app is completely build to give very good user experience in mobile view only.
 
-**Link to access**
+## **Link to access**
 
-<a>Click Here</a>
+<a link="musichub675.ccbp.tech" target="_blank">Click Here</a>
 
 
-**Technology Used**
+## **Technology Used**
 
 The web app is completely build with HTML5, CSS and Bootstrap. 
