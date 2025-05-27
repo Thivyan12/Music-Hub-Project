@@ -8,7 +8,7 @@ The web app is completely build to give very good user experience in mobile view
 
 ## **Link to access**
 
-<a href="musichub675.ccbp.tech" target="_blank">Click Here</a>
+<a href="https://musichub675.ccbp.tech" target="_blank">Click Here</a>
 
 
 ## **Technology Used**
