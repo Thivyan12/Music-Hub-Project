@@ -3,7 +3,7 @@
 
 .homepage-background-container {
     background-image: url("https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg");
-    height: 100vh;
+    height: 100vw;
     background-size: cover;
 }
 
