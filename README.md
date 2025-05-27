@@ -5,6 +5,6 @@ By clicking on the song, the user can view the play button to listen the video s
 singers and directors. 
 
 
-# Technology Used
+**Technology Used**
 
 The web app is completely build with HTML5, CSS and Bootstrap. 
